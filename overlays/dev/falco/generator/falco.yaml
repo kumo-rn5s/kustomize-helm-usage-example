@@ -1,0 +1,6 @@
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: falco
+valuesInline:
+  podPriorityClassName: system-node-critical

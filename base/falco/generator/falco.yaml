@@ -1,0 +1,10 @@
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: falco
+releaseName: falco
+name: falco
+version: 4.19.0
+repo: https://falcosecurity.github.io/charts
+valuesInline:
+  podPriorityClassName: system-cluster-critical
